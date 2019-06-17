@@ -32,6 +32,9 @@ exports.cloneObject = function(source, target) {
 };
 
 exports.findInArray = function(source, field, value) {
+
+
+    
     for (var i = 0; i < source.length; i++) {
         if (source[i][field] === undefined) continue;
         if (source[i][field] == value) {
