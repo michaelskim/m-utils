@@ -14,6 +14,8 @@ exports.cloneArray = function(source, target) {
     return target;
 };
 
+
+
 exports.cloneObject = function(source, target) {
     if (null == source || "object" != typeof source) return source;
     if (target == undefined) target = {};
